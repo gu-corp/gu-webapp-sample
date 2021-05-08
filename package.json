@@ -1,0 +1,21 @@
+{
+  "name": "gu-webapp-sample",
+  "version": "1.0.0",
+  "description": "Web application sample",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulabs/gu-webapp-sample.git"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "G.U.Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gulabs/gu-webapp-sample/issues"
+  },
+  "homepage": "https://github.com/gulabs/gu-webapp-sample#readme"
+}
