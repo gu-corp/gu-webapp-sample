@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Web application sample",
   "scripts": {
-    "init": "git submodule init && git submodule update && cd member-client && npm run init && cd .. && cd member-server && npm init && cd ..",
+    "init": "git submodule init && git submodule update && cd member-client && npm run init && cd .. && cd member-server && npm run init && cd ..",
     "test": "jest",
     "dev:server": "cd member-server && npm run start:dev",
     "dev:client": "cd member-client && npm run dev",
