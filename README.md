@@ -1,22 +1,22 @@
 # Description
-This project is a technical sample project for building Web applications. The project use Next.js for the front-end, Nest.js for the back-end, and Firebase Authentication for authentication.
+A technical sample project for building Web application. 
+
+- Next.js for the front-end
+- Nest.js for the back-end
+- Firebase Authentication for authentication.
 
 # Getting started
-## Initialize
+## Initialization
 ```
 npm run init
 ```
-## Run backend server
-### Start server
+## Running backend server
 ```
 npm run dev:server
 ```
-### Check by browser
-Go to http://localhost:8080/graphql
-## Run frontend server
-### Start client
+Then go to http://localhost:8080/graphql
+## Running frontend server
 ```
 npm run dev:client
 ```
-### Check by browser
-Go to http://localhost:3000
+Then go to http://localhost:3000
