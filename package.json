@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Web application sample",
   "scripts": {
-    "init": "git submodule init && git submodule update && cd member-client && npm run init && cd .. && cd member-server && npm run init && cd ..",
+    "repos": "git clone https://github.com/gulabs/gu-webapp-sample-member-client.git && git clone https://github.com/gulabs/gu-webapp-sample-member-server.git",
+    "init": "cd gu-webapp-sample-member-client && git pull && npm run init && cd .. && cd gu-webapp-sample-member-server && git pull && npm run init && cd ..",
     "test": "jest",
-    "dev:server": "cd member-server && npm run start:dev",
-    "dev:client": "cd member-client && npm run dev",
+    "dev:server": "cd gu-webapp-sample-member-server && npm run start:dev",
+    "dev:client": "cd gu-webapp-sample-member-client && npm run dev",
     "generate": "graphql-codegen"
   },
   "repository": {

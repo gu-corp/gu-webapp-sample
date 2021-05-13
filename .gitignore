@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# submodules
+gu-webapp-sample-member-server
+gu-webapp-sample-member-client
+
 # testing
 /coverage
 
