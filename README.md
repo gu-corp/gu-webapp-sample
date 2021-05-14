@@ -20,3 +20,19 @@ Then go to http://localhost:8080/graphql
 npm run dev:client
 ```
 Then go to http://localhost:3000
+
+## Generate React Hook query for client from server 
+``` 
+npm run generate
+```
+This command generate React Hook Query from 
+### Input
+```
+/member-server/src/schema.gql
+/member-client/src/graphql/queries
+/member-client/src/graphql/mutations
+```
+### Output
+```
+/member-client/src/graphql/generated
+```
