@@ -1,6 +1,0 @@
-[submodule "member-client"]
-	path = member-client
-	url = git@github.com:gulabs/gu-webapp-sample-member-client.git
-[submodule "member-server"]
-	path = member-server
-	url = git@github.com:gulabs/gu-webapp-sample-member-server.git
