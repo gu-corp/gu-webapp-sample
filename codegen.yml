@@ -1,26 +1,26 @@
 overwrite: true
-schema: "./member-server/src/schema.gql"
+schema: "./gu-webapp-sample-member-server/src/schema.gql"
 documents:
-  - ./member-client/src/graphql/**/*.graphql
-  - ./member-client/src/graphql/**/*.graphql
+  - ./gu-webapp-sample-member-client/src/graphql/**/*.graphql
+  - ./gu-webapp-sample-member-client/src/graphql/**/*.graphql
 # documents: "src/**/*.graphql"
 generates:
-  # ./member-client/src/gen/graphql-resolver-types.ts:
+  # ./gu-webapp-sample-member-client/src/gen/graphql-resolver-types.ts:
   #   plugins:
   #     - typescript
   #     - "typescript-operations"      
   #     - typescript-resolvers
-  ./member-client/src/graphql/generated/graphql-client.tsx:
+  ./gu-webapp-sample-member-client/src/graphql/generated/graphql-client.tsx:
     plugins:
       - "typescript"
       - "typescript-operations"      
       - typescript-react-apollo  
-  # ./member-client/src/gen/graphql-client-api.tsx:
+  # ./gu-webapp-sample-member-client/src/gen/graphql-client-api.tsx:
   #     - typescript
   #     - typescript-operations
-  # ./member-client/src/gen/graphql-client-hook.tsx:
+  # ./gu-webapp-sample-member-client/src/gen/graphql-client-hook.tsx:
   #     - typescript
   #     - typescript-react-apollo
-  ./member-client/src/graphql/generated/graphql.schema.json:
+  ./gu-webapp-sample-member-client/src/graphql/generated/graphql.schema.json:
     plugins:
       - "introspection"
