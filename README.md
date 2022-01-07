@@ -8,6 +8,7 @@ A technical sample project for building Web application.
 # Getting started
 ## Requirement
 - Node.js v14
+<br>
 Install v14, not the other versions.
 
 ## Initialization
