@@ -6,6 +6,10 @@ A technical sample project for building Web application.
 - Firebase Authentication for authentication.
 
 # Getting started
+## Requirement
+- Node.js v14
+Install v14, not the other versions.
+
 ## Initialization
 ```
 npm run init
